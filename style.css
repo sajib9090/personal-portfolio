@@ -64,7 +64,7 @@
     box-shadow: 5px 5px 10px rgb(180, 180, 180);
 }
 .navbar h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     letter-spacing: 2px;
 }
@@ -76,6 +76,7 @@
     list-style: none;
 }
 .nav-menu li a{
+    font-size: 15px;
     text-decoration: none;
     margin-left: 20px;
     color: white;
@@ -190,7 +191,7 @@
     letter-spacing: 0.75rem;
     font-weight: 800;
     writing-mode: vertical-lr;
-    margin: 0px;
+    margin: 0 0 0 20px;
     line-height: 93px;
 }
 .about-img-content{
@@ -265,11 +266,11 @@
     }
     #mobile{
         margin-right: 1rem;
-        font-size: 40px;
+        font-size: 30px;
         display: block;
     }
     .navbar h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .navbar {
         padding: 1rem 4rem;
