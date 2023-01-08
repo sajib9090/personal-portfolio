@@ -13,6 +13,10 @@
     color: rgb(255, 255, 255);
     background: rgb(80, 80, 80);
   }
+  ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
 
 /* header start here */
 #close{
@@ -44,7 +48,7 @@
 }
 .navbar{
     display: flex;
-    padding: 15px 60px;
+    padding: 10px 60px;
     align-items: center;
     color: white;
     transition: .6s ease-in-out;
@@ -57,6 +61,7 @@
 }
 .navbar.scrolled {
     background-color: rgb(87, 87, 87);
+    box-shadow: 5px 5px 10px rgb(180, 180, 180);
 }
 .navbar h1{
     font-size: 50px;
@@ -319,6 +324,7 @@
 
 @media (max-width: 488px) {
      /* navbar section starts here */
+     
      #header {
         background-image: url(assets/images/background/hero-section2.jpg);
         background-position: bottom 0px right -110px;
