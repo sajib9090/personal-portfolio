@@ -61,7 +61,7 @@
 }
 .navbar.scrolled {
     background-color: rgb(87, 87, 87);
-    box-shadow: 5px 5px 10px rgb(180, 180, 180);
+    box-shadow: 0px 0px 12px 0px #aeaeae;
 }
 .navbar h1{
     font-size: 40px;
@@ -182,8 +182,8 @@
 
 /* about section start here */
 #about{
-    margin: 100px 0;
-    padding: 0 3rem;
+    margin: 50px 0;
+    padding: 5.1rem 3rem 0 3rem;
 }
 .about-title-content h1{
     font-size: 9.375rem;
@@ -252,6 +252,11 @@
     color: white;
 }
 /* work section end here */
+
+/* resume section starts here */
+
+
+/* resume section ends here */
 
 
 
